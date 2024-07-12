@@ -48,6 +48,9 @@ section{
     padding-top: 170px;
     
     height: 250px;
+    background-image: url(photo/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .exprience{
     width: 40%;
@@ -56,13 +59,14 @@ section{
     padding-left: 2%;
     box-shadow: 10px 10px 40px grey;
     border-radius: 5px;
-    
+   
     background-color: aliceblue;
 }
 #first{
     border-left: 7px solid;
     border-image: linear-gradient( 180deg ,lightsalmon,tomato );
     border-image-slice: 1;
+    
 }
 #second{
     border-left: 7px solid;
