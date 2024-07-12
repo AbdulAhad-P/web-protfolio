@@ -1,21 +1,71 @@
 body{
     font-style: italic;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: orange;
 }
 .half-width{
-    width: 45%;
+    width: 40%;
     float: left;
-  margin: 1%;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 img{
-    width: 95%;
-   padding-left: 50px;
+    width: 100%;
 }
-#button{
-   background-color: rgb(255, 165, 0);
+#top{
+   background-image: url("photo/top-banner.png");
+   background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg ,lightsalmon,tomato );
+    padding: 10px 20px;
+    border-radius:5px ;
+    color: aliceblue;
+    font-weight: 700;
+}
+.dream{
+    background-image: url("photo/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#down{
+    padding-top: 170px;
+    
+    height: 250px;
+}
+.exprience{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    
+    background-color: aliceblue;
+}
+#first{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg ,lightsalmon,tomato );
+    border-image-slice: 1;
+}
+#second{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg ,rgb(161, 197, 243),rgba(2, 10, 245, 0.881) );
+    border-image-slice: 1;
 }
